@@ -1,0 +1,10 @@
+.aboutMe {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  max-width: 800px;
+}
+
+.aboutMe img {
+  margin-right: 1rem;
+}
