@@ -1,3 +1,7 @@
+.container {
+  padding: 2rem;
+}
+
 .aboutMe {
   display: flex;
   align-items: flex-start;
