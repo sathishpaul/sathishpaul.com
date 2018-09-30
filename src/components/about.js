@@ -33,7 +33,7 @@ const AboutPage = () => {
           &nbsp;by Steve Schoger, here are the places where I have lived.</p>
        <img src={places} alt="places I have lived" />
        
-       <p>This site is made with <span role="img" aria-label="love">❤️</span> using Gatsby, and deployed on Netlify.</p>
+       <p>This site is made with <span role="img" aria-label="love">❤️</span>using Gatsby, and deployed on Netlify.</p>
     </div>
   );
 };

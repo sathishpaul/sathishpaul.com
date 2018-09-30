@@ -8,7 +8,7 @@ const WorkPage = () => (
   <Navbar />
   <div>
     <p>
-      This page provides details about my work history. If you just need my resume, 
+      This page provides details about my work history. If you would like to look at my resume, 
       click <a href={resume} target="_blank" rel="noopener noreferrer">here</a>.
     </p>
 
