@@ -1,11 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import AboutPage from './about'
+import Layout from '../components/layout'
+import AboutPage from '../components/about'
 
 const IndexPage = () => (
-  <div>
+  <Layout>
     <AboutPage />
-  </div>
+  </Layout>
 )
 
 export default IndexPage

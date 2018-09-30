@@ -1,16 +1,14 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import me from '../me.jpg';
-import about from '../about.css';
-import places from '../places-I-lived.svg';
+// import me from '../me.jpg';
+import './about.css';
+import places from '../images/places-I-lived.svg';
 
 const AboutPage = () => {
   return (
     <div className="container"> 
-       <p>Hi there!👋🏾</p>
-       <div className="aboutMe">
-        <section>
-
+       <p>Hi there! <span role="img" aria-label="Hello">👋🏾</span></p>
+       <section className="aboutMe">
           <p>
             I am a Christian, husband to my lovely wife, a soon-to-be dad, and a web developer living in the Bay area. 
             My interests include web development, recent advancements in JavaScript and photography.  
@@ -30,14 +28,14 @@ const AboutPage = () => {
             If you would like to know my work history, click here to get my resume
           </p>
             
-          <p>You can find more about me on <a target="_blank" href="https://twitter.com/sathishpaul">Twitter</a> 
+          <p>You can find more about me on <a target="_blank" rel="noopener noreferrer" 
+            href="https://twitter.com/sathishpaul">Twitter</a> 
             &nbsp; or <a href="https://www.linkedin.com/in/sathish-paul-leo-396b7b1">LinkedIn</a>
           </p>
-        </section>
+       </section>
 
-       </div>
        <h3>Places I have lived </h3>
-        <img src={places} />
+        <img src={places} alt="places I have lived" />
     </div>
   );
 };
