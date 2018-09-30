@@ -2,12 +2,16 @@ import React from 'react';
 import {Link} from 'gatsby';
 import Layout from '../components/layout';
 import Navbar from '../components/Navbar';
-
+import resume from '../images/resume.pdf'
 const WorkPage = () => (
   <Layout>
   <Navbar />
   <div>
-    <h3>This is my work</h3>
+    <p>
+      This page provides details about my work history. If you just need my resume, 
+      click <a href={resume} target="_blank" rel="noopener noreferrer">here</a>.
+    </p>
+
     <Link to="/">Go back to the homepage</Link>
   </div>
 </Layout>

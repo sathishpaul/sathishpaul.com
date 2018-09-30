@@ -22,18 +22,15 @@ const AboutPage = () => {
             I enjoy making Web applications and I have been thrilled to see the recent developments in JavaScript and CSS.
             Flexbox and CSS Grid have made Web layout so much simpler compared to a decade ago. I am thankful that I have access to these tools and APIs.
           </p>
-          <p>
-            If you would like to know my work history, click here to get my resume
-          </p>
 
-          <p>You can find more about me on <a target="_blank" rel="noopener noreferrer" 
-              href="https://twitter.com/sathishpaul">Twitter</a> 
-              &nbsp; or <a href="https://www.linkedin.com/in/sathish-paul-leo-396b7b1">LinkedIn</a>
+          <p>You can find more about me on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/sathishpaul">Twitter</a> 
+              &nbsp; or <a href="https://www.linkedin.com/in/sathish-paul-leo-396b7b1" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
           </p>
           
        </section>
 
-       <p>Inspired by this <a href="https://twitter.com/steveschoger/status/882949496388321284" target="_blank">tweet</a> by Steve Schoger, here are the places where I have lived </p>
+       <p>Inspired by this <a href="https://twitter.com/steveschoger/status/882949496388321284" target="_blank" rel="noopener noreferrer">tweet</a>
+          &nbsp;by Steve Schoger, here are the places where I have lived.</p>
        <img src={places} alt="places I have lived" />
        
        <p>This site is made with <span role="img" aria-label="love">❤️</span> using Gatsby, and deployed on Netlify.</p>
