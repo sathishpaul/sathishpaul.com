@@ -33,7 +33,7 @@ const AboutPage = () => {
           
        </section>
 
-       <h3>Inspired by this <a href="https://twitter.com/steveschoger/status/882949496388321284" target="_blank">tweet</a> by Steve Schoger, here are the places where I have lived </h3>
+       <p>Inspired by this <a href="https://twitter.com/steveschoger/status/882949496388321284" target="_blank">tweet</a> by Steve Schoger, here are the places where I have lived </p>
        <img src={places} alt="places I have lived" />
        
        <p>This site is made with <span role="img" aria-label="love">❤️</span> using Gatsby, and deployed on Netlify.</p>
