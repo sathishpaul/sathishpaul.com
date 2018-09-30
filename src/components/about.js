@@ -1,7 +1,6 @@
 import React from 'react';
-import Link from 'gatsby-link';
 // import me from '../me.jpg';
-import './about.css';
+import './site.css';
 import places from '../images/places-I-lived.svg';
 
 const AboutPage = () => {

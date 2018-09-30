@@ -13,3 +13,14 @@
 .aboutMe img {
   margin-right: 1rem;
 }
+
+.siteNavBar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.siteNavBar li {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
