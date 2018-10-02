@@ -28,11 +28,13 @@ const AboutPage = () => {
           
        </section>
 
-       <p>Inspired by this <a href="https://twitter.com/steveschoger/status/882949496388321284" target="_blank" rel="noopener noreferrer">tweet</a>
-          &nbsp;by Steve Schoger, here are the places where I have lived.</p>
+       <p>Inspired by <a href="https://twitter.com/steveschoger/status/882949496388321284" target="_blank" rel="noopener noreferrer">Steve Schoger</a>
+        , here are the places where I have lived.</p>
        <img src={places} alt="places I have lived" />
        
-       <p>This site is made with <span role="img" aria-label="love">❤️</span>using Gatsby, and deployed on Netlify.</p>
+       <p>Made with <span role="img" aria-label="love">❤️</span> using <a href="https://www.gatsbyjs.org/" target="_blank" 
+        rel="noopener noreferrer">GatsbyJS</a> and deployed on <a href="https://www.netlify.com/" target="_blank" 
+        rel="noopener noreferrer">Netlify</a>.</p>
     </div>
   );
 };
