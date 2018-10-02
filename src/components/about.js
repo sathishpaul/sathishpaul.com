@@ -9,7 +9,6 @@ const AboutPage = () => {
        <section className="aboutMe">
           <p>
             I am a Christian, husband to my lovely wife, a soon-to-be dad, and a web developer living in the Bay area. 
-            My interests include web development, recent advancements in JavaScript and photography.  
           </p>
 
           <p>
@@ -22,18 +21,18 @@ const AboutPage = () => {
             I enjoy making Web applications and I have been thrilled to see the recent developments in JavaScript and CSS.
             Flexbox and CSS Grid have made Web layout so much simpler compared to a decade ago. I am thankful that I have access to these tools and APIs.
           </p>
-          <p>
-            If you would like to know my work history, click here to get my resume
+
+          <p>You can find more about me on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/sathishpaul">Twitter</a> 
+              &nbsp; or <a href="https://www.linkedin.com/in/sathish-paul-leo-396b7b1" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
           </p>
-            
-          <p>You can find more about me on <a target="_blank" rel="noopener noreferrer" 
-            href="https://twitter.com/sathishpaul">Twitter</a> 
-            &nbsp; or <a href="https://www.linkedin.com/in/sathish-paul-leo-396b7b1">LinkedIn</a>
-          </p>
+          
        </section>
 
-       <h3>Places I have lived </h3>
-        <img src={places} alt="places I have lived" />
+       <p>Inspired by this <a href="https://twitter.com/steveschoger/status/882949496388321284" target="_blank" rel="noopener noreferrer">tweet</a>
+          &nbsp;by Steve Schoger, here are the places where I have lived.</p>
+       <img src={places} alt="places I have lived" />
+       
+       <p>This site is made with <span role="img" aria-label="love">❤️</span>using Gatsby, and deployed on Netlify.</p>
     </div>
   );
 };
