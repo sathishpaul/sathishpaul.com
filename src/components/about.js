@@ -1,6 +1,5 @@
 import React from 'react';
 // import me from '../me.jpg';
-import './site.css';
 import places from '../images/places-I-lived.svg';
 
 const AboutPage = () => {
