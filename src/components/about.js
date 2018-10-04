@@ -1,13 +1,13 @@
 import React from 'react';
-// import me from '../me.jpg';
+import me from '../images/me.jpg';
 import places from '../images/places-I-lived.svg';
 
 const AboutPage = () => {
   return (
     <div className="container"> 
+      <img src={me} className="myPic"/>
        <p>Hi there! <span role="img" aria-label="Hello">👋🏾</span></p>
-       <section className="aboutMe">
-          <p>
+       <p>
             I am a Christian, husband to my lovely wife, a soon-to-be dad, and a web developer living in the Bay area. 
           </p>
 
@@ -25,6 +25,8 @@ const AboutPage = () => {
           <p>You can find more about me on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/sathishpaul">Twitter</a> 
               &nbsp; or <a href="https://www.linkedin.com/in/sathish-paul-leo-396b7b1" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
           </p>
+       <section className="aboutMe">          
+          
           
        </section>
 
@@ -33,7 +35,7 @@ const AboutPage = () => {
        <img src={places} alt="places I have lived" />
        
        <p>Made with <span role="img" aria-label="love">❤️</span> using <a href="https://www.gatsbyjs.org/" target="_blank" 
-        rel="noopener noreferrer">GatsbyJS</a> and deployed on <a href="https://www.netlify.com/" target="_blank" 
+        rel="noopener noreferrer">Gatsby</a> and deployed on <a href="https://www.netlify.com/" target="_blank" 
         rel="noopener noreferrer">Netlify</a>.</p>
     </div>
   );

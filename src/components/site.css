@@ -19,3 +19,9 @@
   margin: 0 0.5rem;
   cursor: pointer;
 }
+
+.myPic {
+  width: 200px;
+  float: left;
+  margin: 0 1rem 0 0;
+}
