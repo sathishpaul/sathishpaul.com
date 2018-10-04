@@ -5,7 +5,7 @@ import places from '../images/places-I-lived.svg';
 const AboutPage = () => {
   return (
     <div className="container"> 
-      <img src={me} className="myPic"/>
+      <img src={me} className="myPic" alt="me looking to the top" />
        <p>Hi there! <span role="img" aria-label="Hello">👋🏾</span></p>
        <p>
             I am a Christian, husband to my lovely wife, a soon-to-be dad, and a web developer living in the Bay area. 
@@ -25,10 +25,6 @@ const AboutPage = () => {
           <p>You can find more about me on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/sathishpaul">Twitter</a> 
               &nbsp; or <a href="https://www.linkedin.com/in/sathish-paul-leo-396b7b1" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
           </p>
-       <section className="aboutMe">          
-          
-          
-       </section>
 
        <p>Inspired by <a href="https://twitter.com/steveschoger/status/882949496388321284" target="_blank" rel="noopener noreferrer">Steve Schoger</a>
         , here are the places where I have lived.</p>

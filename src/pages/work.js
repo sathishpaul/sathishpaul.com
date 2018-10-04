@@ -16,7 +16,7 @@ const WorkPage = () => (
 
     <p>
       I have had the good fortune of working with some awesome people who have helped me shape my career and grow as a UI Engineer. If you are reading this, there is a good chance that you are one of those people. Thank You! 
-      <span rel="img" aria-label="smile">😀</span>
+      <span role="img" aria-label="smile">😀</span>
     </p>
 
     <h3>Experience</h3>
