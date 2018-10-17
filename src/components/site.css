@@ -1,3 +1,19 @@
+.siteHeader {
+  background-color: rebeccapurple;
+  margin-bottom: 1.45rem;
+}
+
+.siteHeader h1 {
+  margin: 0 auto;
+  max-width: 960px;
+  min-width: 320px;
+  padding: 1rem 1.0875rem;
+}
+
+.myPrinciples {
+  list-style-type: lower-greek;
+}
+
 .siteNavBar ul {
   list-style-type: none;
   display: flex;
