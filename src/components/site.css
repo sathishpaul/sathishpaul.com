@@ -10,8 +10,22 @@
   padding: 1rem 1.0875rem;
 }
 
+.myPrinciplesContainer {
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 .myPrinciples {
-  list-style-type: lower-greek;
+  list-style-image: url('../images/star.svg');
+  padding-top: 10px;
+}
+
+.workSeparator {
+  width: 450px;
+  margin: 10px auto;
+  background-color: #cecece;
+
 }
 
 .siteNavBar ul {

@@ -8,8 +8,9 @@ const WorkPage = () => (
   <Layout>
   <Navbar />
   <div>
-    <p>I am a UI Engineer working at Oracle in the Bay area.
-      This page provides details about my work history.
+    <p>I am a UI Engineer working at Oracle in the Bay area. I love working with JavaScript, HTML and CSS to bring
+      wonderful experiences to life on the Web. I am particularly thrilled with the recent developments to the JavaScript
+      language, as well as the incredible layout improvements brought to CSS by Flexbox and Grid.
     </p>
 
     <p>
@@ -23,18 +24,18 @@ const WorkPage = () => (
       <span role="img" aria-label="smile">😀</span>
     </p>
 
-    <p>
+    <p className="myPrinciplesContainer">
       Here are some of the principles I have come to learn and uphold in my work.
       <ul className="myPrinciples">
         <li>
-          To have a “leave it better than you found it” mentality, and be willing to work with and improve on code you did not originally write. 
+          To have a “leave it better than I found it” mentality, to be willing to work with and improve code that 
+          I did not originally write. 
         </li>      
-	      <li>To sweat the details </li>
-	      <li>Small details add up to make a big difference</li>
-	      <li>Point of diminishing returns</li>
-	      <li>The humility to say “I do not know” and to have a teachable mind, the perspective that there is something to be learnt from every person, situation.</li>
-	      <li>People are more important than code. It is important to treat people right and value them as an individual. Respect people, question the reason behind why  code and </li>
-	      <li>Compassionate coding - brings my spiritual belief to the work place</li>
+	      <li>To sweat the details, especially the small ones. They add up to make a big difference in the overall experience. </li>
+	      <li>To be pragmatic about when to decide to ship something, as opposed to constantly tinkering with it.</li>
+	      <li>The humility to say “I do not know, but I can find out” and to have a teachable mind.</li>
+	      <li>To always remember that people are more important than code. That it is important to treat people right and 
+          value them as an individual, independent of their work.</li>
       </ul>
     </p>
 
