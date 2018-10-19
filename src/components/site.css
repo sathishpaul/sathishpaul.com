@@ -1,3 +1,33 @@
+.siteHeader {
+  background-color: rebeccapurple;
+  margin-bottom: 1.45rem;
+}
+
+.siteHeader h1 {
+  margin: 0 auto;
+  max-width: 960px;
+  min-width: 320px;
+  padding: 1rem 1.0875rem;
+}
+
+.myPrinciplesContainer {
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.myPrinciples {
+  list-style-image: url('../images/star.svg');
+  padding-top: 10px;
+}
+
+.workSeparator {
+  width: 450px;
+  margin: 10px auto;
+  background-color: #cecece;
+
+}
+
 .siteNavBar ul {
   list-style-type: none;
   display: flex;
