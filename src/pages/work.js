@@ -8,9 +8,11 @@ const WorkPage = () => (
   <Layout>
   <Navbar />
   <div>
-    <p>I am a UI Engineer working at Oracle in the Bay area. I love working with JavaScript, HTML and CSS to bring
-      wonderful experiences to life on the Web. I am particularly thrilled with the recent developments to the JavaScript
-      language, as well as the incredible layout improvements brought to CSS by Flexbox and Grid.
+    <p>I am a UI Engineer working at Oracle in the Bay area. </p>
+    
+    <p>I love working with JavaScript, HTML and CSS to bring
+      wonderful experiences to life on the Web. I am particularly thrilled with the recent additions to the JavaScript
+      language (ES6+), as well as the incredible layout improvements brought to CSS by Flexbox and Grid.
     </p>
 
     <p>
@@ -19,8 +21,8 @@ const WorkPage = () => (
     </p>
 
     <p>
-      I have had the good fortune of working with some awesome people who have helped me shape my career and grow as a UI Engineer. 
-      If you are reading this, there is a good chance that you are one of those people. Thank you!
+      I have had the good fortune of working with some awesome people who took a chance on me, gave me opportunities that helped me grow as a UI Engineer. 
+      I would not be where I am, without help from those people. If you are reading this, there is a good chance that you are one of them. Thank you!
       <span role="img" aria-label="smile">😀</span>
     </p>
 
@@ -29,19 +31,40 @@ const WorkPage = () => (
       <ul className="myPrinciples">
         <li>
           To have a “leave it better than I found it” mentality, to be willing to work with and improve code that 
-          I did not originally write. 
+          I did not originally write.
         </li>      
 	      <li>To sweat the details, especially the small ones. They add up to make a big difference in the overall experience. </li>
 	      <li>To be pragmatic about when to decide to ship something, as opposed to constantly tinkering with it.</li>
-	      <li>The humility to say “I do not know, but I can find out” and to have a teachable mind.</li>
+	      <li>To have the humility to say “I do not know, but I can find out” and to have a teachable mind.</li>
+        <li>To make a genuine attempt to deeply understand the language and tools that I use to build software.</li>
 	      <li>To always remember that people are more important than code. That it is important to treat people right and 
           value them as an individual, independent of their work.</li>
       </ul>
     </p>
 
-    <h3>Experience</h3>
-    <h4>Staff Software Engineer - Oracle Corporation</h4>
+    <h3>Skills</h3>
+    <ul>
+      <li>Programming Languages: JavaScript, Java</li>
+      <li>Web technologies: CSS (particularly Flexbox and Grid), HTML5, Java Servlets, and JSP</li>
+      <li>Libraries and Frameworks: jQuery, KnockoutJS, ReactJS, Redux, AngularJS, and Dojo (yeah that one!)</li>
+      <li>Server side frameworks: NodeJS, Express, Spring, Struts, and Hibernate</li>
+      <li>Tools: Grunt, Gulp, Webpack, Git, Sketch, Figma, Ant, Maven and Perforce</li>
+    </ul>
 
+    <h3>Experience</h3>
+    <h4>Staff Software Engineer - Oracle Corporation</h4> 
+    <ul>
+      <li>As one of the founding UI engineers in the team, I helped bootstrap the codebase from scratch and setup the plumbing necessary to build the Data Integration Cloud product.</li>
+      <li>Designed and implemented the UI architecture for key, feature-rich projects.</li>
+      <li>Helped onboard the team and served as a mentor providing guidance on modern front-end best practices and tooling.</li>
+      <li>Advocate for simplicity in design and implementation with a focus on maintainability.</li>
+      <li>Served as a makeshift UX-designer, building mockups and icons whenever necessary. Sketch and Figma FTW!😁</li>
+    </ul>
+
+    <h4>Principal/Senior Software Engineer - Informatica Corporation</h4>
+
+    <h4>Software Engineer - Fatwire Corporation</h4>
+    
     <Link to="/">Home</Link>
   </div>
 </Layout>
