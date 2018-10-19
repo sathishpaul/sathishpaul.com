@@ -35,10 +35,10 @@ const WorkPage = () => (
         </li>      
 	      <li>To sweat the details, especially the small ones. They add up to make a big difference in the overall experience. </li>
 	      <li>To be pragmatic about when to decide to ship something, as opposed to constantly tinkering with it.</li>
-	      <li>To have the humility to say “I do not know, but I can find out” and to have a teachable mind.</li>
+	      <li>To have the humility to say “I do not know, but I can find out”.</li>
         <li>To make a genuine attempt to deeply understand the language and tools that I use to build software.</li>
 	      <li>To always remember that people are more important than code. That it is important to treat people right and 
-          value them as an individual, independent of their work.</li>
+          value them as individuals, independent of their work.</li>
       </ul>
     </p>
 
