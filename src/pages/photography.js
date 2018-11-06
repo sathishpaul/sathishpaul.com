@@ -7,7 +7,7 @@ const PhotosPage = () => (
   <Layout>
     <Navbar />
     <div>
-      <h3>This are my best photos</h3>
+      <h3>Coming soon!</h3>
       <Link to="/">Go back to the homepage</Link>
     </div>
   </Layout>
