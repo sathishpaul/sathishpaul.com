@@ -56,15 +56,39 @@ const WorkPage = () => (
     <ul>
       <li>As one of the founding UI engineers in the team, I helped bootstrap the codebase from scratch and setup the plumbing necessary to build the Data Integration Cloud product.</li>
       <li>Designed and implemented the UI architecture for key, feature-rich projects.</li>
-      <li>Helped onboard the team and served as a mentor providing guidance on modern front-end best practices and tooling.</li>
+      <li>Helped onboard the team and served as a mentor, providing guidance on modern front-end best practices and tooling.</li>
       <li>Advocate for simplicity in design and implementation with a focus on maintainability.</li>
       <li>Served as a makeshift UX-designer, building mockups and icons whenever necessary. Sketch and Figma FTW!😁</li>
     </ul>
 
     <h4>Principal/Senior Software Engineer - Informatica Corporation</h4>
+    <ul>
+      <li>My time at Informatica were the years where I developed the crucial skills necessary to be a Web Developer.</li>
+      <li>I am so grateful for the senior engineers and mentors who provided valuable guidance related to UI development.</li>
+      <li>It was here that I learnt the importance of understanding the JavaScript language deeply.</li>
+      <li>And thanks to the projects at Informatica, that I learnt how big of a deal CSS Flexbox was to layout (CSS grid was not yet unveiled)</li>
+      <li>Other remarkable highlights at Informatica included: learning to use jQuery better, understanding what Dojo provided and realizing how ahead of its time Dojo really was and many other 
+         little details of the wonderful world of Web development.
+      </li>
+    </ul>
 
     <h4>Software Engineer - Fatwire Corporation</h4>
-    
+    <ul>
+      <li>I joined Fatwire Corporation right out of grad school and it was my first real Software Engineering job.</li>  
+      <li>The company's main product was called Content Server - an on-premise Content Management Solution, that happened to work
+        based on Web technologies.
+      </li>
+      <li>It was here that I was exposed to what Web development really was. My regular day involved dealing with
+        server setups (JBoss, BEA Weblogic, IBM WebSphere etc).
+      </li>
+      <li>While I primarily dealt with writing Java code for capturing business logic, I quickly learnt how to build web pages using JSP, HTML, CSS and 
+        got introduced to the language that would go on to become my chief skill: JavaScript.
+      </li>
+    </ul>
+
+    <i>If you need further details about any of the above, please get in touch.</i>
+    <br />
+    <br />
     <Link to="/">Home</Link>
   </div>
 </Layout>
