@@ -8,7 +8,7 @@ const AboutPage = () => {
       <img src={me} className="myPic" alt="me looking to the top" />
        <p>Hi there! <span role="img" aria-label="Hello">👋🏾</span></p>
        <p>
-            I am a Christian, husband to my lovely wife, a soon-to-be dad, and a web developer living in the Bay area. 
+            I am a Christian, husband to my lovely wife, dad to my precious daughter, and a web developer living in the Bay area. 
           </p>
 
           <p>
